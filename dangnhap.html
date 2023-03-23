@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  
+    <title></title>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+   
+<secsion class="top">
+        <div class="container">
+            <div class="row">
+                <div class="top-logo">
+                    <a href=""><img src="./img/mona.jpg" alt=""></a>
+                </div>
+                <div class="top-menu-items">
+                    <ul class="dropdown"> 
+                        
+                        <li class="dropbtn"><a href="">Sản Phẩm</a>   
+                            <ul class="top-menu-item">
+                                <div class="dropdown-content">
+                                
+                                   <a href="">hghgf</a>
+                                 
+                                </div>
+                            </ul>
+                        </li>
+                        <li>Tin tức</li>
+                        <li>Thông tin</li>
+                    </ul>
+                </div>
+                <div class="top-menu-icons">
+                    <ul>
+                        <li>
+                        <form action="page/timkiem.php" method="POST">
+                            <input type="text" placeholder="Tìm kiếm" name="tukhoa">
+                            <button name="timkiem" type="submit"><i class="fas fa-search"></i></button>
+                            </form>
+                        </li>
+                </div>
+                <div class="top-menu-login">
+                    <li><a href="">Đăng Ký</a></li>
+                    <span>|</span>
+                    <li><a href="">Đăng Nhập</a></li>
+                </div>
+            </div>
+        </div>
+    </secsion>
+                
+            </div>
+        </div>
+    </secsion>
+    <div class="category-2">
+        <div class="auth-from-1">
+            <p>
+                Đăng nhập
+                </p>
+        </div>
+        <div class="auth-froms-1">
+            <div class="auth-froms-a">
+                <form action="" method="post">
+                    <div class="auth-froms-a-1">
+                        <li>Bạn đã là khách hàng</li>
+                         <ul>
+                             <p>Email</p>
+                             <input type="email" name="" class="auth-froms-a-1__input-1" placeholder="Nhập email của bạn ...">
+                         </ul>
+                         <ul>
+                             <p>Mật Khẩu</p>
+                             <input type="password" name="" class="auth-froms-a-1__input-2" placeholder="nhập mật khẩu của bạn ...">
+                         </ul>
+                         <ul class="auth-froms-a-1-chu1">
+                            <a  href="">Đăng nhập</a>
+                         </ul>
+                         <a class="auth-froms-a-1-chu2" href="">Quên mật khẩu</a>
+                         
+                     </div>
+                </form>
+                     
+
+            </div>
+            <div class="auth-froms-b">
+                <div class="auth-froms-b-1">
+                    <p>Bạn là khách hàng mới</p>
+                </div>
+                <div class="auth-froms-b-2">
+                    <p>Tạo một tài khoản chỉ với hai thông tin và bạn sẽ có thể xử lý đơn đặt hàng của mình nhanh hơn và tìm hiểu về các xu hướng và chương trình khuyến mãi mới nhất qua email!</p>
+                    <ul class="auth-froms-b-2-chu1">
+                        <a href="">Đăng kí ngay</a>
+                     </ul>  
+                    <p>Đăng nhập hoặc tạo tài khoản với</p> 
+                    <ul class="auth-froms-b-2-chu2">
+                        <a href="">Facebook</a>
+                     </ul> 
+                     <ul class="auth-froms-b-2-chu3">
+                        <a href="">Google</a>
+                     </ul> 
+                </div>
+
+            </div>
+        </div>
+    </div> 
+
+     <!-- Footer -->
+     <section class="footer">
+        <div class="footer-container">
+            <div class="footer-items">
+                <li><a href="https://www.facebook.com/Cs2Qt">Liên hệ</a></li>
+                <li><a href="https://www.facebook.com/Cs2Qt">Tuyển dụng</a></li>
+                <li><a href="https://www.facebook.com/Cs2Qt"><i class="fab fa-facebook-f"></i></a><a href=""><i class="fab fa-youtube"></i></a></li>
+            </div>
+            <div class="footer-text">
+    Địa chỉ đăng ký: Đường Đoàn Thi Điểm - Đông Hà - Quảng Trị - Liên Hệ : 098 778 8888 <br>
+    Đặt hàng online : 096 868 6868 .
+            </div>
+            <div class="footer-bottom">
+                
+            </div>
+        </div>
+    </section>
+    
+    
+    <script src="script.js"></script>
+    
+    
+    
+    </body>
+    <script type="text/javascript">
+    const imgItem = document.querySelectorAll(".aspect-ratio-169 img")
+    const imgItemContainer = document.querySelector(".aspect-ratio-169")
+    const dotItem = document.querySelectorAll(".dot")
+    let index = 0;
+    let imgLeng = imgItem.length
+    imgItem.forEach(function(image,index){
+     image.style.left = index*100 + "%"
+     dotItem[index].addEventListener("click",function(){
+     slideRun (index)
+     })
+    })
+    function slider (){
+     index++;
+     if(index >= imgLeng){index=0}
+    
+     slideRun (index)
+    }
+    function slideRun (index) {
+     imgItemContainer.style.left = "-" + index*100 + "%"
+     const dotActive = document.querySelector(".active")
+     dotActive.classList.remove("active")
+     dotItem[index].classList.add("active");
+    }
+    
+    setInterval (slider,5000)
+    
+    
+    
+    
+    const toP = document.querySelector(".top")
+    window.addEventListener("scroll",function(){
+    const X = this.pageYOffset;
+    if(X>1){toP.classList.add("active")}
+    else {
+      toP.classList.remove("active")
+    }
+    }) 
+                        
+    </script>
+    </html>    
