@@ -25,7 +25,7 @@
             <div class="main_mid">
             <li><a href="index.php?dangxuat=1"> Đăng xuất:<?php if(isset($_SESSION['dangnhap'])){ echo $_SESSION['dangnhap'];} ?></a></li>
                 <li><a href="index.php">Trang Chủ</a></li>
-                <li><a href="">Quản Lý Menu</a></li>
+                <li><a href="quanlymenu.php">Quản Lý Menu</a></li>
                 <li><a href="">Quản Lý Sản Phẩm</a></li>
                 <li><a href="">Quản Lý Đơn Hàng</a></li>
             
