@@ -6,7 +6,7 @@ include "./menu.php";
     <div class="auth-froms">               
     <div class="auth-fromse">
         <div class="auth-fromse-1">
-            <p>Đăng Ký Tài Khoản</p>
+            <p> Đăng Ký Tài Khoản </p>
         </div>
         <?php include 'xuly.php' ?>
         <?php
@@ -20,6 +20,7 @@ if(isset($message)){
       ';
    }
 }
+
 ?>
         <form action="" method="post">
             <div class="auth-fromse-2">
@@ -36,7 +37,7 @@ if(isset($message)){
                     <input type="email" name="email" class="auth-fromse2__input-3" placeholder="Nhập email của bạn ...">
                 </ul>
                 <ul>
-                    <p>Mật Khẩu</p>
+                    <p> Mật Khẩu </p>
                     <input type="password" name="matkhau" class="auth-fromse2__input-4" placeholder="Nhập mật khẩu của bạn ...">
                 </ul>
                 <div class="auth-fromse-2-submit">
