@@ -34,9 +34,8 @@ include "menu.php";
                     <td><?php echo $i ?></td>
                     <td><?php echo $row['ten_menu'] ?></td>
                     <td>
-                    <a href="">Sửa</a>
-                        <a href="">Xóa</a>
-                    </td>
+                    <a href="suamenu.php?id_menu=<?php echo $row['id_menu'] ?>">Sửa</a>
+                    <a href="xulymenu.php?id_menu=<?php echo $row['id_menu'] ?>">Xóa</a>
                 </tr>
                 <?php
                     }
