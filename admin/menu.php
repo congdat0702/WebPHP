@@ -27,6 +27,7 @@
                 <li><a href="index.php">Trang Chủ</a></li>
                 <li><a href="quanlymenu.php">Quản Lý Menu</a></li>
                 <li><a href="quanlysanpham.php">Quản Lý Sản Phẩm</a></li>
+                <li><a href="">Quản Lý Sản Phẩm</a></li>
                 <li><a href="">Quản Lý Đơn Hàng</a></li>
             
             </div>
