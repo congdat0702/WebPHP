@@ -1,6 +1,8 @@
 <?php
-include "../header.php";
-include "../menu.php";
+
+include "./header.php";
+include "./menu.php";
+
 ?>
 <?php
 	            $sql_lietke_sp = "SELECT * FROM tbl_sanpham,tbl_menu WHERE tbl_sanpham.id_menu=tbl_menu.id_menu ORDER BY id_sanpham DESC";

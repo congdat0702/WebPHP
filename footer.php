@@ -1,6 +1,10 @@
  <!-- Footer -->
  <div class="logo-page">
+<<<<<<< HEAD
             <img src="./assets/img/mona.jpg" alt="">
+=======
+            <img src="./imgage/datquang.jpg" alt="">
+>>>>>>> main
         </div>
         <!-- quote -->
         <div class="qoute">
@@ -9,10 +13,22 @@
 Văn phòng HCM: 319 - C16 Lý Thường Kiệt, phường 15, quận 11, TP. HCM
 
 Hotline :1900 636 648 | Email: mon@mona.media"
+<<<<<<< HEAD
             </p>
         </div>
 <div id="footer">
             <div class="footer">
+=======
+
+            </p>
+            
+        </div>
+<div id="footer">
+            <div class="footer">
+                <div class="footer-text margin-r20">
+                </div>
+
+>>>>>>> main
                 <div class="blog margin-r20 ">
                     <h4>THÔNG TIN CÔNG TY </h4>
                     <div class="callout ">
@@ -42,9 +58,14 @@ Hotline :1900 636 648 | Email: mon@mona.media"
 
                 <div class="popular">
                     <div>
+<<<<<<< HEAD
                         <h3> HỆ THỐNG CỬA HÀNG </h3>
                             <p>
                                 
+=======
+                        <h3>HỆ THỐNG CỬA HÀNG</h3>
+                        <p>  
+>>>>>>> main
                                 <span class="item-popular"> Chi nhánh 1 : 123 Võ Văn Ngân </span>
                                 
                                 <span class="item-popular"> Chi nhánh 2 : 23 Nguyễn Thị Minh Khai </span>
@@ -93,12 +114,17 @@ Hotline :1900 636 648 | Email: mon@mona.media"
      dotActive.classList.remove("active")
      dotItem[index].classList.add("active");
  }
+<<<<<<< HEAD
  
  setInterval (slider,5000)
 
 
 
 
+=======
+ setInterval (slider,5000)
+
+>>>>>>> main
 const toP = document.querySelector(".top")
 window.addEventListener("scroll",function(){
     const X = this.pageYOffset;

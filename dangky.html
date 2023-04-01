@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  
+    <title>Website - Thiết bị điện tử</title>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <div class="auth-form-2">
+          <ul>
+            <p>Họ</p>
+            <input type="text" name="ho" class="auth-form-2__input-1" placeholder="Nhập họ của bạn ..." required>
+          </ul>
+          <ul>
+            <p>Tên</p>
+            <input type="text" name="ten" class="auth-form-2__input-2" placeholder="Nhập tên của bạn ..." required>
+          </ul>
+          <ul>
+            <p>Email</p>
+            <input type="email" name="email" class="auth-form-2__input-3" placeholder="Nhập email của bạn ..." required>
+          </ul>
+          <ul>
+            <p>Mật Khẩu</p>
+            <input type="password" name="matkhau" class="auth-form-2__input-4" placeholder="Nhập mật khẩu của bạn ..." required>
+          </ul>
+          <div class="auth-form-2-submit">
+            <button name="dangky" type="submit">Đăng Kí</button>
+          </div>
+        </div>
+      </form>
+      
+    </body>
+    <script type="text/javascript">
+    const imgItem = document.querySelectorAll(".aspect-ratio-169 img")
+    const imgItemContainer = document.querySelector(".aspect-ratio-169")
+    const dotItem = document.querySelectorAll(".dot")
+    let index = 0;
+    let imgLeng = imgItem.length
+    imgItem.forEach(function(image,index){
+     image.style.left = index*100 + "%"
+     dotItem[index].addEventListener("click",function(){
+     slideRun (index)
+     })
+    })
+    function slider (){
+     index++;
+     if(index >= imgLeng){index=0}
+    
+     slideRun (index)
+    }
+    function slideRun (index) {
+     imgItemContainer.style.left = "-" + index*100 + "%"
+     const dotActive = document.querySelector(".active")
+     dotActive.classList.remove("active")
+     dotItem[index].classList.add("active");
+    }
+    
+    setInterval (slider,5000)
+    
+    
+    
+    
+    const toP = document.querySelector(".top")
+    window.addEventListener("scroll",function(){
+    const X = this.pageYOffset;
+    if(X>1){toP.classList.add("active")}
+    else {
+      toP.classList.remove("active")
+    }
+    }) 
+                        
+    </script>
+    </html>    
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        ghi gì cũng được
+    </h1>
+</body>
+</html>
