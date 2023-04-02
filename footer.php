@@ -1,10 +1,6 @@
  <!-- Footer -->
  <div class="logo-page">
-
-            <img src="./img/mona.jpg" alt="">
-
-            <img src="./imgage/datquang.jpg" alt="">
-
+            <img src="./assets/img/mona.jpg" alt="">
         </div>
         <!-- quote -->
         <div class="qoute">
@@ -12,75 +8,92 @@
 
 Văn phòng HCM: 319 - C16 Lý Thường Kiệt, phường 15, quận 11, TP. HCM
 
-Hotline :1900 636 648 | Email: DQ@mona.media"
+Hotline :1900 636 648 | Email: mon@mona.media"
 
             </p>
-        </div>
-<div id="footer">
-            <div class="footer">
-
-
-            </p>
-            
+            <!-- 
+            <img src="./assets/img/mona.jpg" alt="" class="margin-r20" >
+            <img src="./assets/img/mona.jpg" alt="" >
+            -->
         </div>
 <div id="footer">
             <div class="footer">
                 <div class="footer-text margin-r20">
+                    
                 </div>
 
-
                 <div class="blog margin-r20 ">
-                    <h4>THÔNG TIN CÔNG TY </h4>
+                    <h4>THÔNG TIN </h4>
                     <div class="callout ">
                         <ul>
-                            <li> Công ty Cổ Phần MONA Việt Nam Giấy phép kinh doanh số 0107875555 do sở kế hoạch và đầu tư thành phố Hồ Chí Minh cấp ngày 06/06/2016</li>
-                            <li> Văn phòng HCM: 319 - C16 Lý Thường Kiệt, phường 15, quận 11, TP. HCM</li>
+                            <li>Văn phòng HCM: 153 Lý Thường Kiệt, phường 7, quận 11, TP. HCM</li>
                            
                         </ul>
+  
                     </div>
-
                     <hr>
                     <h4>EMAIL</h4>
                     <div class="callout ">
                         <ul>
-                            <li>Đặt hàng: <a href="mailto:sales@organica.vn"> DQ@mona.media</a></li>
-                            <li>Hợp tác: <a href="mailto:organica@organica.vn"> datquang@gmail.com</a></li>
+                            <li>Đặt hàng: <a href="#"> support@gmail.com</a></li>
+                            <li>Hợp tác:<a href="#"> congdat.hutech@gmail.com</a></li>
                         </ul>
                     </div>
-
-                    <h4>ĐƯỜNG DÂY NÓNG</h4>
+                    <h4>HOTLINE</h4>
                     <div class="callout ">
                         <ul>
-                            <li><span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;">&nbsp;Hotline :1900 636 648</span></span>&nbsp;</li>
+                            <li>Hostline: 1234 567 890</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="popular">
                     <div>
-                        <h3>HỆ THỐNG CỬA HÀNG</h3>
-                        <p>  
+                        <h3>Hệ Thống Cửa Hàng</h3>
+                        <p>
+                            <span class="item-popular">Chi nhánh 1 : Lý Thường Kiệt</span>
+                            
+                            <span class="item-popular">Chi nhánh 2 : Nguyễn Thị Minh Khai</span><br>
+                            
+                            <span class="item-popular">Chi nhánh 3 : Lê Văn Việt</span>
+                        </p>
 
-                                <span class="item-popular"> Chi nhánh 1 : 123 Võ Văn Ngân </span>
-                                
-                                <span class="item-popular"> Chi nhánh 2 : 23 Nguyễn Thị Minh Khai </span>
-                                
-                                <span class="item-popular"> Chi nhánh 3 : 17 Cách Mạng Tháng 8 </span>
-                                
-                                <span class="item-popular"> Chi nhánh 4 : 127 Lê Văn Việt </span>
-                            </p>
                     </div>
-
                     <div class="login-free">
                         <p>Đăng kí nhận khuyến mãi</p>
-
                         <input type="email" name="email" placeholder="Nhập Email nhận thông tin khuyến mãi" value="">
                         <button>Gửi</button>
                         
                     </div>
+                    
+                    
                 </div>
             </div>
         </div>
+
+        <!--
+
+ <section class="footer">
+        <div class="footer-container">
+            <div class="footer-items">
+                <li><a href="https://www.facebook.com/Cs2Qt">Liên hệ</a></li>
+                <li><a href="https://www.facebook.com/Cs2Qt">Tuyển dụng</a></li>
+                <li><a href="https://www.facebook.com/Cs2Qt"><i class="fab fa-facebook-f"></i></a><a href=""><i class="fab fa-youtube"></i></a></li>
+            </div>
+            <div class="footer-text">
+Địa chỉ đăng ký: Đường Đoàn Thi Điểm - Đông Hà - Quảng Trị - Liên Hệ : 098 778 8888 <br>
+Đặt hàng online : 096 868 6868 .
+            </div>
+            <div class="footer-bottom">
+                ©Vinamilk All rights reserved
+            </div>
+        </div>
+    </section>
+
+
+<script src="script.js"></script>
+-->
+
 
 </body>
     <script type="text/javascript">
@@ -113,10 +126,6 @@ Hotline :1900 636 648 | Email: DQ@mona.media"
 
 
 
-
- setInterval (slider,5000)
-
-
 const toP = document.querySelector(".top")
 window.addEventListener("scroll",function(){
     const X = this.pageYOffset;
@@ -124,6 +133,7 @@ window.addEventListener("scroll",function(){
   else {
       toP.classList.remove("active")
   }
-})                 
+}) 
+                        
     </script>
 </html>    
