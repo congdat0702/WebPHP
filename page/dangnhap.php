@@ -1,8 +1,10 @@
 
 <?php
-include "./header.php";
-include "./menu.php";
+include "../header.php";
+include "../menu.php";
 ?>
+   
+
 <div class="category-2">
         <div class="auth-from-1">
             <p>

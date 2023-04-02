@@ -1,6 +1,6 @@
 <?php
-include "./header.php";
-include "./menu.php";
+include "../header.php";
+include "../menu.php";
 ?>
 <div class="category-1">
     <div class="auth-froms">               
