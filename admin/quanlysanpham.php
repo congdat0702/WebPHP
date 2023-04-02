@@ -53,8 +53,8 @@ include "menu.php";
                         <a href="xulysanpham.php?id_sanpham=<?php echo $row['id_sanpham'] ?>"
                             onClick="return confirm('Bạn có thực sự muốn xóa ?');">Xóa</a>
 
-                       <a href="suasanpham.php?id_sanpham=<?php echo $row['id_sanpham'] ?>">Sửa</a>
-                        <a href="xulysanpham.php?id_sanpham=<?php echo $row['id_sanpham'] ?>">Xóa</a>  
+                       <!-- <a href="suasanpham.php?id_sanpham=<?php echo $row['id_sanpham'] ?>">Sửa</a>
+                        <a href="xulysanpham.php?id_sanpham=<?php echo $row['id_sanpham'] ?>">Xóa</a>   -->
                     </td>
                 </tr>
                 <?php
