@@ -15,8 +15,8 @@ $mail = new PHPMailer(true); // Php Mailer là một thư viện giúp chúng ta
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'truongkp703052001@gmail.com';
-    $mail->Password = '0947448771a'; 
+    $mail->Username = 'congdatdev@dulieu9.com';
+    $mail->Password = 'daueewdbpxitlpjf'; 
     $mail->SMTPSecure = "TLS";
     $mail->Port = 587; 
 
