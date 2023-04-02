@@ -1,6 +1,6 @@
 <?php
-include "./header.php";
-include "./menu.php";
+include "../header.php";
+include "../menu.php";
 ?>
 <div class="category-1">
     <div class="auth-froms">               
@@ -53,9 +53,5 @@ if(isset($message)){
 </div>
 <?php
 
-
-include "./footer.php";
-
-include "./footer.php";
-
+include "../footer.php";
 ?>
