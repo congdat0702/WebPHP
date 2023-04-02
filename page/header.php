@@ -10,11 +10,7 @@
     <link rel="stylesheet" type="text/css" href="../style.css">
     <link rel="stylesheet" href="./img/fontawesome-free-6.1.1-web/css/all.min.css">
     
-<<<<<<< HEAD
-    <title> Website - Thiết bị điện tử </title>
-=======
     <title>Website - Thiết bị điện tử</title>
->>>>>>> main
     <style type="text/css">
     </style>
 </head>

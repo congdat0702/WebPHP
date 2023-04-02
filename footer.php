@@ -1,10 +1,10 @@
  <!-- Footer -->
  <div class="logo-page">
-<<<<<<< HEAD
-            <img src="./assets/img/mona.jpg" alt="">
-=======
+
+            <img src="./img/mona.jpg" alt="">
+
             <img src="./imgage/datquang.jpg" alt="">
->>>>>>> main
+
         </div>
         <!-- quote -->
         <div class="qoute">
@@ -12,13 +12,13 @@
 
 Văn phòng HCM: 319 - C16 Lý Thường Kiệt, phường 15, quận 11, TP. HCM
 
-Hotline :1900 636 648 | Email: mon@mona.media"
-<<<<<<< HEAD
+Hotline :1900 636 648 | Email: DQ@mona.media"
+
             </p>
         </div>
 <div id="footer">
             <div class="footer">
-=======
+
 
             </p>
             
@@ -28,13 +28,13 @@ Hotline :1900 636 648 | Email: mon@mona.media"
                 <div class="footer-text margin-r20">
                 </div>
 
->>>>>>> main
+
                 <div class="blog margin-r20 ">
                     <h4>THÔNG TIN CÔNG TY </h4>
                     <div class="callout ">
                         <ul>
-                            <li>Công ty Cổ Phần MONA Việt Nam Giấy phép kinh doanh số 0107875555 do sở kế hoạch và đầu tư thành phố Hồ Chí Minh cấp ngày 06/06/2016</li>
-                            <li>Văn phòng HCM: 319 - C16 Lý Thường Kiệt, phường 15, quận 11, TP. HCM</li>
+                            <li> Công ty Cổ Phần MONA Việt Nam Giấy phép kinh doanh số 0107875555 do sở kế hoạch và đầu tư thành phố Hồ Chí Minh cấp ngày 06/06/2016</li>
+                            <li> Văn phòng HCM: 319 - C16 Lý Thường Kiệt, phường 15, quận 11, TP. HCM</li>
                            
                         </ul>
                     </div>
@@ -43,8 +43,8 @@ Hotline :1900 636 648 | Email: mon@mona.media"
                     <h4>EMAIL</h4>
                     <div class="callout ">
                         <ul>
-                            <li>Đặt hàng: <a href="mailto:sales@organica.vn"> mon@mona.media</a></li>
-                            <li>Hợp tác: <a href="mailto:organica@organica.vn"> demonhunterg@gmail.com</a></li>
+                            <li>Đặt hàng: <a href="mailto:sales@organica.vn"> DQ@mona.media</a></li>
+                            <li>Hợp tác: <a href="mailto:organica@organica.vn"> datquang@gmail.com</a></li>
                         </ul>
                     </div>
 
@@ -58,14 +58,9 @@ Hotline :1900 636 648 | Email: mon@mona.media"
 
                 <div class="popular">
                     <div>
-<<<<<<< HEAD
-                        <h3> HỆ THỐNG CỬA HÀNG </h3>
-                            <p>
-                                
-=======
                         <h3>HỆ THỐNG CỬA HÀNG</h3>
                         <p>  
->>>>>>> main
+
                                 <span class="item-popular"> Chi nhánh 1 : 123 Võ Văn Ngân </span>
                                 
                                 <span class="item-popular"> Chi nhánh 2 : 23 Nguyễn Thị Minh Khai </span>
@@ -83,8 +78,6 @@ Hotline :1900 636 648 | Email: mon@mona.media"
                         <button>Gửi</button>
                         
                     </div>
-                    
-                    
                 </div>
             </div>
         </div>
@@ -114,17 +107,16 @@ Hotline :1900 636 648 | Email: mon@mona.media"
      dotActive.classList.remove("active")
      dotItem[index].classList.add("active");
  }
-<<<<<<< HEAD
  
  setInterval (slider,5000)
 
 
 
 
-=======
+
  setInterval (slider,5000)
 
->>>>>>> main
+
 const toP = document.querySelector(".top")
 window.addEventListener("scroll",function(){
     const X = this.pageYOffset;
@@ -132,7 +124,6 @@ window.addEventListener("scroll",function(){
   else {
       toP.classList.remove("active")
   }
-}) 
-                        
+})                 
     </script>
 </html>    

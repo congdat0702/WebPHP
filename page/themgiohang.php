@@ -108,7 +108,4 @@
 		header('Location:giohang.php');
 		
 	}
-	
-	
-	
 ?>
