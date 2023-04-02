@@ -1,7 +1,8 @@
-<?php
+
+    <?php
     session_start();
-    include "./header.php";
-    include "./menu.php";
+    include "header.php";
+    include "menu.php";
     
     ?>
     <section class="sliders">
@@ -18,8 +19,14 @@
             <div class="dot"></div>
    
        </div>
+
+
+       
     </section>
+
+    
+    
     <?php
   
-    include "./footer.php";
+    include "footer.php";
     ?>

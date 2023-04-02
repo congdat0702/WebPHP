@@ -557,7 +557,6 @@ color: #00CC00  ;}
 }
 /* footer */
 .footer {
-
     background: rgb(255, 255, 255);
     padding: 60px 0 0;
     border-top: 2px solid black;
@@ -600,26 +599,10 @@ color: #00CC00  ;}
     cursor: pointer;
 }
 .footer-items {
-
-    background-color: #f7f7f7;
-    border-top: 1px solid #ccc;
-    padding: 60px 0;
-  }
-  
-  .footer-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 30px;
-    justify-items: center;
-  }
-  
-  .footer-items {
-
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 30px 0;
-
 }
 .footer-items li {
     padding: 12px;
@@ -682,113 +665,7 @@ color: #00CC00  ;}
     height: 100%;
     top: 0;
     left: 15%;
-
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-items li {
-    margin-right: 20px;
-    position: relative;
-  }
-  
-  .footer-items li a {
-    color: #666;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: all 0.3s ease;
-  }
-  
-  .footer-items li a:hover {
-    color: #000;
-  }
-  
-  .footer-items li:last-child::after {
-    display: none;
-  }
-  
-  .footer-items li i {
-    font-size: 20px;
-    color: #666;
-    transition: all 0.3s ease;
-  }
-  
-  .footer-items li i:hover {
-    color: #000;
-  }
-  
-  .footer-bottom {
-    background-color: #ddd;
-    color: #666;
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 30px;
-  }
-  
-  .footer-bottom a {
-    color: #666;
-    text-decoration: none;
-    transition: all 0.3s ease;
-  }
-  
-  .footer-bottom a:hover {
-    color: #000;
-  }
-  
-  .footer-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .footer-logo img {
-    width: 100px;
-    margin-right: 10px;
-  }
-  
-  .footer-social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .footer-social li {
-    margin-right: 20px;
-    position: relative;
-  }
-  
-  .footer-social li a {
-    color: #666;
-    font-size: 20px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-  }
-  
-  .footer-social li a:hover {
-    color: #000;
-  }
-  
-  .footer-social li i {
-    font-size: 20px;
-    color: #666;
-    transition: all 0.3s ease;
-  }
-  
-  .footer-social li i:hover {
-    color: #000;
-  }
-  
-  .footer-newsletter {
-    display: flex;
-    justify-content: center;
-  }  
-
+}
 /* ---------------------Cartegory------------------------------------- */
 .cartegory {
     padding: 31px 0 26px 0;
