@@ -1,6 +1,6 @@
 <?php
-include "../header.php";
-include "../menu.php";
+include "./header.php";
+include "./menu.php";
 ?>
 <div class="category-1">
     <div class="auth-froms">               
@@ -48,7 +48,7 @@ if(isset($message)){
             </div>
         </form>
         <div class="auth-fromse-3">
-           <a href="">Trở về</a>
+           <a href="dangnhap.php">Trở về</a>
         </div>
 </div>
 <?php

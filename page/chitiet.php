@@ -9,9 +9,7 @@ include "./menu.php";
 ?>
 <section class="product">
         <div class="container">
-            <div class="product-top row">
-             <!--    <h3><a href="../index.php">Trang chủ</a></h3> <span>⟶  </span> <h3><a href="sanpham.php">Sản Phẩm</a></h3><span>⟶ </span> <h3><a>Chi Tiết</a></h3>  -->
-            </div>
+            <div class="product-top row">            </div>
             <form action="themgiohang.php?id_sanpham=<?php echo $row_chitiet['id_sanpham'] ?>" method="POST" enctype="multipart/form-data">
             
             <div class="product-content row">

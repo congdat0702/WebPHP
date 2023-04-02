@@ -1,6 +1,6 @@
 <?php
-include "../header.php";
-include "../menu.php";
+include "./header.php";
+include "./menu.php";
 ?>
 <?php
 	$sql_pro = "SELECT * FROM tbl_sanpham WHERE tbl_sanpham.id_menu='$_GET[id]' ORDER BY id_sanpham DESC";

@@ -35,18 +35,18 @@ include "menu.php";
                        
                         <td>
                         <?php if($row['tinhtrang']==1){
-    		                echo '<a href="">Cần Phê Duyệt</a>';
+    		                echo '<a href="xulydonhang.php?code='.$row['ma'].'">Cần Phê Duyệt</a>';
     	                    }else{
     		                echo 'Đã Duyệt';
     	                    }
     	                ?>
                         </td>                         
-                        <td><a href="xemdonhang.php">Xem đơn hàng</a> </td>
-                        <td><a href="xulydonhang.php">Xóa</a></td>
+                        <td><a href="xemdonhang.php?code=<?php echo $row['ma'] ?>">Xem đơn hàng</a> </td>
+                        <td><a href="xulydonhang.php?id_giohang=<?php echo $row['id_giohang'] ?>" onclick="return confirm('Bạn Có Chắc Chắn Muốn Xóa Không ?');">Xóa</a></td>
                 </tr>
                 <?php
                         }
                 ?>
             </table>
         </div>
-     
+    
