@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONA ADMIN </title>
+    <link rel="stylesheet" href="./admin.css">
+    <script src="../assets/ckeditor/ckeditor.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="icon" href="../assets/img/favicon (2).ico" type="image/x-icon" />
+</head>
+<body>
+    <div class="main">
+    <div class="web-admin">
+
+            <h1>Admin</h1>
+        </div><div class="content_admin">
+            <div class="menu-admin">
+                <div class="user-admin">
+                    <img class="margin-r20" src="../assets/img/avt.png" alt="">
+                    <a href="index.php?dangxuat=1">Đăng xuất</a>
+                </div>
+
+                <div class="text-menu" >
+                    <p>Sản Phẩm</p>
+                    <ul>
+                        <li>
+                            <a href="index.php?quanly=sanpham&query=them">Thêm Sản Phẩm</a>
+                        </li>
+                        <li>
+                            <a href="index.php?quanly=sanpham&query=list">Danh sách Sản Phẩm</a>
+                        </li>
+                    </ul>
+                   
+                </div>
+                
+                
+                <div class="text-menu" >
+                    <p>Tin Tức</p>
+                    <ul>
+                        <li>
+                            <a href="index.php?quanly=tintuc&query=them">Thêm Tin Tức</a>
+                        </li>
+                        <li>
+                            <a href="index.php?quanly=tintuc&query=list">Danh sách Tin Tức</a>
+                        </li>
+                    </ul>
+                   
+                </div>
+
+                <div class="text-menu" >
+                    <p>Đơn hàng</p>
+                    <ul>
+                        <li>
+                            <a href="index.php?quanly=oder&query=list">Danh sách Đơn Hàng</a>
+                        </li>
+                    </ul>
+                   
+                </div>
+            </div>
+    </div>
+</body>
+<script>
+    
+    CKEDITOR.replace( 'editor1' );
+</script>
+</html>    
