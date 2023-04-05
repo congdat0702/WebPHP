@@ -1,20 +1,17 @@
  <!-- Footer -->
  <div class="logo-page">
-            <img src="./assets/img/mona.jpg" alt="">
+            <img src="./img/mona.jpg" alt="">
         </div>
         <!-- quote -->
         <div class="qoute">
             <p class="margin-r20"> "Công ty Cổ Phần MONA Việt Nam Giấy phép kinh doanh số 0107875555 do sở kế hoạch và đầu tư thành phố Hồ Chí Minh cấp ngày 06/06/2016
 
-Văn phòng HCM: 319 - C16 Lý Thường Kiệt, phường 15, quận 11, TP. HCM
+Văn phòng HCM: 153 Lý Thường Kiệt, phường 7, quận 11, TP. HCM
 
 Hotline :1900 636 648 | Email: mon@mona.media"
 
             </p>
-            <!-- 
-            <img src="./assets/img/mona.jpg" alt="" class="margin-r20" >
-            <img src="./assets/img/mona.jpg" alt="" >
-            -->
+            
         </div>
 <div id="footer">
             <div class="footer">
@@ -59,41 +56,9 @@ Hotline :1900 636 648 | Email: mon@mona.media"
                         </p>
 
                     </div>
-                    <div class="login-free">
-                        <p>Đăng kí nhận khuyến mãi</p>
-                        <input type="email" name="email" placeholder="Nhập Email nhận thông tin khuyến mãi" value="">
-                        <button>Gửi</button>
-                        
-                    </div>
-                    
-                    
                 </div>
             </div>
         </div>
-
-        <!--
-
- <section class="footer">
-        <div class="footer-container">
-            <div class="footer-items">
-                <li><a href="https://www.facebook.com/Cs2Qt">Liên hệ</a></li>
-                <li><a href="https://www.facebook.com/Cs2Qt">Tuyển dụng</a></li>
-                <li><a href="https://www.facebook.com/Cs2Qt"><i class="fab fa-facebook-f"></i></a><a href=""><i class="fab fa-youtube"></i></a></li>
-            </div>
-            <div class="footer-text">
-Địa chỉ đăng ký: Đường Đoàn Thi Điểm - Đông Hà - Quảng Trị - Liên Hệ : 098 778 8888 <br>
-Đặt hàng online : 096 868 6868 .
-            </div>
-            <div class="footer-bottom">
-                ©Vinamilk All rights reserved
-            </div>
-        </div>
-    </section>
-
-
-<script src="script.js"></script>
--->
-
 
 </body>
     <script type="text/javascript">
